@@ -8,17 +8,18 @@ using namespace std;
 #define MOD 1e9+7
 
 int main(){
-	int n,m;
-	cin >> n;
+	int q,type,x;
+	cin >> q;
 
-	int a[n];
-	for(int i=0;i<n;i++)
-		cin >> a[i];
+	while(q--){
+		cin >> type;
 
-	cin >> m;
-	for(int i=0;i<m;i++){
-		cin >> l >> r;
-		cout << ans << endl;
-	}
+		if(type == 1){
+			cin >> x;
+			
+		}
+		else{
 
+		}
+	}		
 }

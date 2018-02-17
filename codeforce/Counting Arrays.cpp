@@ -8,17 +8,19 @@ using namespace std;
 #define MOD 1e9+7
 
 int main(){
-	int n,m;
-	cin >> n;
+	int q,x,y;
+	cin >> q;
 
-	int a[n];
-	for(int i=0;i<n;i++)
-		cin >> a[i];
+	while(q--){
+		cin >> x >> y;
 
-	cin >> m;
-	for(int i=0;i<m;i++){
-		cin >> l >> r;
-		cout << ans << endl;
-	}
+		vector<int> v;
+		for(int i=1;i<=x;i++){
+			if(x%i == 0){
+				v.push_back(i);
+			}
+		}
 
+		
+	}	
 }

@@ -1,0 +1,14 @@
+git config --global user.name "riddhi2000"
+git config --global user.email "riddhi.patel@students.iiit.ac.in"
+
+git init
+
+#to add file
+git add filename
+
+#to add folder
+git add foldername
+
+git commit -m "first commit"
+git remote add origin https://github.com/riddhi2000/WikiPedia-Search-Engine
+git push -f origin master

@@ -8,17 +8,15 @@ using namespace std;
 #define MOD 1e9+7
 
 int main(){
-	int n,m;
+	int n;
 	cin >> n;
+	string s;
+	cin >> s;
 
-	int a[n];
-	for(int i=0;i<n;i++)
-		cin >> a[i];
+	string f;
+	cin >> f;
 
-	cin >> m;
-	for(int i=0;i<m;i++){
-		cin >> l >> r;
-		cout << ans << endl;
-	}
-
+	for(int i=0;i<n;i++){
+		
+	}	
 }

@@ -9,16 +9,12 @@ using namespace std;
 
 int main(){
 	int n,m;
-	cin >> n;
+	cin >> n >> m;
 
-	int a[n];
-	for(int i=0;i<n;i++)
-		cin >> a[i];
+	for(int i=0;i<n;i++){
+		cin >> u >> v;
 
-	cin >> m;
-	for(int i=0;i<m;i++){
-		cin >> l >> r;
-		cout << ans << endl;
 	}
 
+	
 }
