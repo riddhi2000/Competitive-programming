@@ -16,15 +16,13 @@ int main(){
 		cin >> t >> x;
 
 		if(t == '+'){
-
+			
 		}
 		else if(t -- '-'){
-
+			
 		}
 		else{
-
+			
 		}
-
-		
 	}	
 }
