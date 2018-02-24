@@ -17,6 +17,7 @@ int main(){
 	}
 
 	ll ans=0;
+	
 	for(int c=0;c<n;c++){
 		ll ans1=0,ans2=0;
 

@@ -8,5 +8,14 @@ using namespace std;
 #define MOD 1e9+7
 
 int main(){
+	int n,c;
+	cin >> n >> c;
+
+	vector<int> a(n);
+	for(int i=0;i<n;i++){
+		cin >> a[i];
+	}
+
+
 		
 }
